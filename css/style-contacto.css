@@ -27,6 +27,20 @@
     width: 80%;
     margin: 0 auto;
 }
+.reservacion__datos input{
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+}
+.reservacion__datos{
+    text-align: left;
+    padding-left: 40px;
+}
+/* [max = "10"]{
+    width: 60px;
+} */
 .image{
     height: 100%;
+    border-radius: 0 20px 20px 0;
 }
