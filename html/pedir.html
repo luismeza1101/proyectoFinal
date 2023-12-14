@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../css/style-pedidos.css">
+    <link rel="stylesheet" href="../css/style-header.css">
+    <script src="../js/header.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__buttons">
+            <button id="mostrar">
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+            <button>
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+        </div>
+        <div class="header__logo">
+            <h1>Sabor y Sazon</h1>
+        </div>
+    </header>
+    <nav id="nav" class="navbar">
+        <div>
+            <button id="ocultar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+            </button>
+        </div>
+        <ul>
+            <li><a href="" class="a">Inicio</a></li>
+            <li><a href="" class="a">Contacto</a></li>
+            <li><a href="" class="a">Carta</a></li>
+            <li><a href="" class="a">Sucursales</a></li>
+            <li><a href="/html/pedir.html" class="a">Pedidos</a></li>
+        </ul>
+    </nav>
+    <div class="categorias__container">
+        <section class="categorias">
+            <p>CATEGORIAS</p>
+            <hr width="180px">
+            <ul class="lista">
+                <li class="lista__item"><a href="#entradas">Entradas</a></li>
+                <li class="lista__item"><a href="#postres">Postres</a></li>
+                <li class="lista__item"><a href="#bebidas">Refrescos tipicos</a></li>
+            </ul>
+        </section>
+    </div>
+    <main class="platos">
+        <div id="entradas">
+            <h2>ENTRADAS</h2>
+            <div class="container">
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="postres">
+            <h2>POSTRES</h2>
+            <div class="container">
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bebidas">
+            <h2>BEBIDAS</h2>
+            <div class="container">
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn">Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn">Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn">Pedir por WhatsApp</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="https://comidasperuanas.net/wp-content/uploads/2020/12/Aguajina.jpg" alt="">
+                    </div>
+                    <div class="item__info">
+                        <h3>NOMBRE</h3>
+                        <span class="precio">$40.00</span>
+                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi
+                            sed quidem voluptates dolorem ea velit, quaerat id nemo esse earum facere natus numquam modi
+                            error unde odit dolor ab.</p>
+                        <button class="btn"><ion-icon name="logo-whatsapp"></ion-icon>Pedir por WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

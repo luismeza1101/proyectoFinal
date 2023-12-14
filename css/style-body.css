@@ -26,13 +26,13 @@ body {
 .portada h1 {
     font-size: 6rem;
     font-weight: bold;
-    color: rgb(10, 79, 4);
+    color: #0a4f04;
     font-family: 'WindSong', cursive;
-    text-shadow: 2px 2px 2px rgb(230, 219, 22);
+    text-shadow: 2px 2px 2px #e6db16;
 }
 .portada button {
-    background-color: rgba(170, 175, 96, 0.913);
-    color: black;
+    background-color: #aaaf60e9;
+    color: #000;
     font-size: 1.1em;
     padding: 1.2rem;
     margin: 4rem;
@@ -48,6 +48,10 @@ body {
     transition: .5s all;
 } 
 
+.portada__link{
+    text-decoration: none;
+    color: #000;
+}
 .mostrador {
     padding: 2rem;
 }
