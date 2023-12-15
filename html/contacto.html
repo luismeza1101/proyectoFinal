@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style-header.css">
-    <link rel="stylesheet" href="../css/style-body.css">
+    <title>Contacto</title>
     <link rel="stylesheet" href="../css/style-footer.css">
-    <title>Inicio</title>
+    <link rel="stylesheet" href="../css/style-header.css">
+    <link rel="stylesheet" href="../css/styles-contacto.css">
+    <script src="../js/header.js" defer></script>
 </head>
 <body>
-    
     <header>
         <div>
             <button id="mostrar">
@@ -24,7 +24,6 @@
             </button>
         </div>
     </header>
-
     <nav id="nav" class="navbar">
         <div>
             <button id="ocultar">
@@ -34,42 +33,48 @@
             </button>
         </div>
         <ul>
-            <li><a href="" class="a">Inicio</a></li>
+            <li><a href="/html/main.html" class="a">Inicio</a></li>
             <li><a href="/html/contacto.html" class="a">Contacto</a></li>
             <li><a href="" class="a">Carta</a></li>
             <li><a href="" class="a">Sucursales</a></li>
             <li><a href="/html/pedir.html" class="a">Pedidos</a></li>
         </ul>
     </nav>
-
-    <section class="portada">
-        <h1>Sabor <br> y Sazon</h1>
-        <div>
-            <!-- <button><a href="" class="portada__link">Ofertas</a></button> -->
-            <!-- <button><a href="/html/pedir.html" class="portada__link">Pedidos</a></button> -->
-            <a href="" class="portada__link"><button>Ofertas</button></a>
-            <a href="/html/pedir.html" class="portada__link"><button>Pedidos</button></a>
-        </div>
+    <section class="banner">
+        <h2>SABOR Y SAZON</h2>
     </section>
-
-    <main>
-        <section class="mostrador">
-            <h2>Nuestra Carta</h2>
-            <div class="mostrador-cont">
-                <div class="plato">
-                    <img src="../img/plato.jpg" alt="">
+    <main class="main">
+        <div class="container">
+            <form class="form">
+                <h1>RESERVE AHORA</h1>
+                <div class="data">
+                    <div>
+                        <label for="name">Nombres y Apellidos :</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="cellphone">Numero de telefono :</label>
+                        <input type="text" id="cellphone">
+                    </div>
+                    <div>
+                        <label for="mail">Email :</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="hora">Hora :</label>
+                        <input type="time">
+                    </div>
+                    <div>
+                        <label for="comensales">Numero de comensales :</label>
+                        <input type="number" id="comensales" max="10" >
+                    </div>
+                    <input type="submit" id="enviar">
                 </div>
-                <div class="plato">
-                    <img src="../img/plato2.jpg" alt="">
-                </div>
-                <div class="plato">
-                    <img src="../img/plato.jpg" alt="">
-                </div>
-                <div class="plato">
-                    <img src="../img/plato2.jpg" alt="">
-                </div>
+            </form>
+            <div class="image">
+                <img src="/img/contacto.jpg" alt="">
             </div>
-        </section>
+        </div>
     </main>
     <footer class="footer">
         <div class="redes">
@@ -80,11 +85,6 @@
         </div>
         <p>&copy;Ednilson Luis Meza Corilla | Julio Renato Aguilar Paucar</p>
     </footer>
-
-    <script src="../js/header.js"></script>
-    <script src="../js/portada.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-
-
 </body>
 </html>
