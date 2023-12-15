@@ -28,7 +28,6 @@ body{
     right: 0;
 }
 .header{
-    grid-column: span 2;
     display: flex;    
     align-items: center;
     position: relative;
