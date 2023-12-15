@@ -122,3 +122,43 @@ body {
     font-size: 2.9rem;
     margin: 2rem;
 }
+
+.mapa .mndjna {
+    display: flex;
+}
+
+.mapa .ubicacion {
+    background: url(../img/Textura-2.png);
+    width: 50%;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    color: whitesmoke;
+    line-height: 4rem;
+}
+.mapa .ubicacion:nth-child(2) {
+    background: url(../img/Textura-3.jpg);
+}
+
+.mapa .ubicacion button {
+    background-color: rgb(210, 178, 140);
+    border: 2px solid green;
+    padding: .9rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.mapa .ubicacion button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.mapa .ubi iframe {
+    width: 100%;
+    height: 80vh;
+}
