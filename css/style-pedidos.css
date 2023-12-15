@@ -9,8 +9,9 @@ html{
 }
 body{
     display: grid;
-    grid-template-rows: 1fr 5fr;
-    grid-template-columns: 250px 1fr;
+    grid-template-areas: "header header"
+               "categorias platos"
+               "footer footer";
 }
 .header{
     grid-column: span 2;
@@ -18,6 +19,8 @@ body{
     align-items: center;
     position: relative;
     width: 100%;
+    height: 200px;
+    grid-area: header;
 }
 .header__logo{
     text-align: center;
@@ -26,6 +29,7 @@ body{
 .categorias__container{
     position: relative;
     padding: 40px 0 0 50px;
+    grid-area: categorias;
 }
 .categorias{
     position: sticky;
@@ -51,6 +55,7 @@ body{
 }
 .platos{
     text-align: center;
+    grid-area: platos;
 }
 .container{
     display: grid;
@@ -96,4 +101,8 @@ body{
 }
 .btn:hover{
     transform: translateX(20px);
+}
+.footer{
+    grid-row: span 2;
+    grid-area: footer;
 }
