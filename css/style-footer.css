@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 1899px;
+    display: flex;
+    background-color: #2b2b2b;
+    color: #fff;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.footer--btn{
+    color: #fff;
+    font-size: 32px;
+    margin: 0 10px;
+    transition: .5s;
+}
+.footer--btn:hover{
+    color: #8a8989;
+    transform: scale(1.2);
+}
