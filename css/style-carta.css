@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Rubik+Scribble&family=WindSong:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.carta{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.menu{
+    width: 40%;
+    margin-left: 10%;
+}
+.eslogan{
+    width: 40%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Caesar Dressing", sans-serif;
+    font-size: 5.5em;
+    text-align: center;
+    padding-left: 30px;
+}
+.fondo{
+    position: absolute;
+    width: 450px;
+    z-index: -100;
+    bottom: 30px;
+    right: 10px;
+}
+

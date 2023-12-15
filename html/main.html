@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style-header.css">
     <link rel="stylesheet" href="../css/style-body.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style-footer.css">
+    <title>Inicio</title>
 </head>
 <body>
     
@@ -24,7 +25,7 @@
         </div>
     </header>
 
-    <section id="nav" class="navbar">
+    <nav id="nav" class="navbar">
         <div>
             <input type="text">
             <button id="ocultar">
@@ -34,19 +35,29 @@
             </button>
         </div>
         <ul>
+<<<<<<< HEAD
             <li><a href="" class="a">Inicio</a></li>
             <li><a href="Contact.html" class="a">Contacto</a></li>
             <li><a href="" class="a">Carta</a></li>
             <li><a href="" class="a">Sucursales</a></li>
             <li><a href="" class="a">Pedidos</a></li>
+=======
+            <li><a href="/html/main.html" class="a">Inicio</a></li>
+            <li><a href="/html/contacto.html" class="a">Contacto</a></li>
+            <li><a href="/html/carta.html" class="a">Carta</a></li>
+            <li><a href="/html/sucursales.html" class="a">Sucursales</a></li>
+            <li><a href="/html/pedir.html" class="a">Pedidos</a></li>
+>>>>>>> 7649e0873d6c347d1dc462228bd745751ec9d861
         </ul>
-    </section>
+    </nav>
 
     <section class="portada">
         <h1>Sabor <br> y Sazon</h1>
         <div>
-            <button>Ofertas</button>
-            <button>Pedidos</button>
+            <!-- <button><a href="" class="portada__link">Ofertas</a></button> -->
+            <!-- <button><a href="/html/pedir.html" class="portada__link">Pedidos</a></button> -->
+            <a href="/html/carta.html" class="portada__link"><button>Carta</button></a>
+            <a href="/html/pedir.html" class="portada__link"><button>Pedidos</button></a>
         </div>
     </section>
 
@@ -84,9 +95,20 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="redes">
+            <button class="footer--btn"><ion-icon name="logo-instagram"></ion-icon></button>
+            <button class="footer--btn"><ion-icon name="logo-facebook"></ion-icon></button>
+            <button class="footer--btn">            <ion-icon name="logo-tiktok"></ion-icon>
+            </button>
+        </div>
+        <p>&copy;Ednilson Luis Meza Corilla | Julio Renato Aguilar Paucar</p>
+    </footer>
 
     <script src="../js/header.js"></script>
     <script src="../js/portada.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
 
 </body>
 </html>
