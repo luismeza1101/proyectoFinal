@@ -9,21 +9,38 @@
     <link rel="stylesheet" href="/css/style-header.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container-header">
-            <h1 class="name">El Refugio Verde</h1>
-        
-            <nav class="nav">
-                <ul class="ul">
-                    <li class="li"><a href="" class="a">Nosotros</a></li>
-                    <li class="li"><a href="" class="a">Contacto</a></li>
-                    <li class="li"><a href="" class="a">Productos</a></li>
-                    <li class="li"><a href="" class="a">Mapa</a></li>
-                </ul>
-            </nav>
-
+    <header>
+        <div>
+            <button id="mostrar">
+                <svg class="svg"  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"  viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </button>
+            <button>
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"  viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </button>
         </div>
     </header>
+
+    <section id="nav" class="navbar">
+        <div>
+            <input type="text">
+            <button id="ocultar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                  </svg>
+            </button>
+        </div>
+        <ul>
+            <li><a href="main.html" class="a">Inicio</a></li>
+            <li><a href="Contact.html" class="a">Contacto</a></li>
+            <li><a href="" class="a">Carta</a></li>
+            <li><a href="" class="a">Sucursales</a></li>
+            <li><a href="" class="a">Pedidos</a></li>
+        </ul>
+    </section>
     <main class="main">
         <div class="main__informacion">
             <h1>Reserve su visita</h1>
@@ -54,5 +71,7 @@
             <img src="https://tullano.com/wp-content/uploads/2023/02/SELVA.jpg" class="image">
         </div>
     </main>
+
+    <script src="../js/header.js"></script>
 </body>
 </html>
