@@ -145,20 +145,38 @@ body {
     background: url(../img/Textura-3.jpg);
 }
 
-.mapa .ubicacion button {
-    background-color: rgb(210, 178, 140);
-    border: 2px solid green;
+.btn {
+    background-color: transparent;
+    outline: 2px solid green;
     padding: .9rem 2rem;
     border-radius: 5px;
     font-weight: bold;
+    transition: .5s;
+    font-size: 15px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: goldenrod;
+    outline: none;
+    color: #000;
 }
 .mapa .ubicacion button a {
     text-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: #fff;
 }
 
 .mapa .ubi iframe {
     width: 100%;
     height: 80vh;
+}
+.btn--wsp{
+    background-color: #25D366;
+    border: none;
+}
+.btn--wsp ion-icon{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.btn--wsp:hover{
+    background-color: #2b2b2b;
 }
