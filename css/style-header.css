@@ -23,7 +23,6 @@ header .svg{
     left: 0; 
     z-index: 1;
     display: none;
-<<<<<<< HEAD
     padding: 1.5rem;
 }
 
@@ -38,10 +37,7 @@ header .svg{
 .navbar div input {
     padding: .3rem;
     width: 70%;
-=======
-    padding: 2rem;
     font-family: sans-serif;
->>>>>>> 7649e0873d6c347d1dc462228bd745751ec9d861
 }
 
 .navbar li {
