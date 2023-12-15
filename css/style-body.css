@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
 
 * {
     padding: 0%;
@@ -29,13 +27,13 @@ body {
 .portada h1 {
     font-size: 6rem;
     font-weight: bold;
-    color: #0a4f04;
+    color: rgb(10, 79, 4);
     font-family: 'WindSong', cursive;
-    text-shadow: 2px 2px 2px #e6db16;
+    text-shadow: 2px 2px 2px rgb(230, 219, 22);
 }
 .portada button {
-    background-color: #aaaf60e9;
-    color: #000;
+    background-color: rgba(170, 175, 96, 0.913);
+    color: black;
     font-size: 1.1em;
     padding: 1.2rem;
     margin: 4rem;
@@ -51,10 +49,6 @@ body {
     transition: .5s all;
 } 
 
-.portada__link{
-    text-decoration: none;
-    color: #000;
-}
 .mostrador {
     padding: 2rem;
     height: 50vh;
